@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nx-angular-tailwind/ui/atoms/button": [
+        "libs/ui/atoms/button/src/index.ts"
+      ],
       "@nx-angular-tailwind/ui/storybook": ["libs/ui/storybook/src/index.ts"]
     }
   },
