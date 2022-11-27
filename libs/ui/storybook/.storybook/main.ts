@@ -8,6 +8,8 @@ const config: StorybookConfig = {
 
   stories: [
     ...rootMain.stories,
+    // go up two folders from .storybook --> storybook --> ui and
+    // include all files that match the below format
     '../../**/*.stories.mdx',
     '../../**/*.stories.@(js|jsx|ts|tsx)',
   ],

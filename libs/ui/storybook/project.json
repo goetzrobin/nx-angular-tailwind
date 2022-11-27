@@ -25,6 +25,7 @@
     "storybook": {
       "executor": "@storybook/angular:start-storybook",
       "options": {
+        "styles": ["libs/ui/storybook/styles.css"],
         "port": 4400,
         "configDir": "libs/ui/storybook/.storybook",
         "browserTarget": "ui-storybook:build-storybook",
@@ -40,6 +41,7 @@
       "executor": "@storybook/angular:build-storybook",
       "outputs": ["{options.outputDir}"],
       "options": {
+        "styles": ["libs/ui/storybook/styles.css"],
         "outputDir": "dist/storybook/ui-storybook",
         "configDir": "libs/ui/storybook/.storybook",
         "browserTarget": "ui-storybook:build-storybook",
