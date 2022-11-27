@@ -3,7 +3,7 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "sourceRoot": "apps/example/src",
-  "prefix": "nx-angular-tailwind",
+  "prefix": "nat",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",

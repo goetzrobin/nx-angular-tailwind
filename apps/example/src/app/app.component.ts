@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'nx-angular-tailwind-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  selector: 'nat-root',
+  template: `<p>Hello world</p>`,
+  styles: []
 })
 export class AppComponent {
-  title = 'example';
 }
