@@ -9,5 +9,5 @@ export const Default: Story<ButtonDirective> = () => ({
   moduleMetadata: {
     imports: [ButtonDirective],
   },
-  template: `<button natButton>Click</button>`
+  template: `<button natButton theme="secondary">Click</button>`
 });
